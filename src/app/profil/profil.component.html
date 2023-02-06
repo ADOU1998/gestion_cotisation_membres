@@ -1,0 +1,80 @@
+<!-- Menu vertical -->
+<div class="row">
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" id="lien" routerLink="">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-item">MEMBRE</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="lien" routerLink="/profil">
+                        <i class="fas fa-user"></i>
+                        <span class="nav-item">PROFIL</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="lien">
+                        <i class="fas fa-wallet"></i>
+                        <span class="nav-item">VERSEMENT</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="logout" href="#" id="lien">
+                        <i class="fas fa-sign-out"></i>
+                        <span class="nav-item">DECONNEXION</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- En tête -->
+    <div class="col dash">
+        <h1 style="text-align: center;color: #fff;">GESTION DES COTISATIONS DES MEMBRES</h1>
+    </div>     
+</div>
+
+<!-- Profil -->
+<div class="container-fluid" id="carde_profil">
+    <!-- <form action="">
+        <input type="text" class="form-control">
+    </form> -->
+    <div class="card">
+        <div class="card-header">
+          <h2>LISTE DES PROFILS</h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <button>AJOUTER UN PROFIL</button>
+          </div>
+
+          <div class="row">
+            <!-- liste des profils -->
+            <table class="table align-middle">
+            <thead>
+                <th>LIBELLE</th>
+                <th>ACTIONS</th>
+            </thead>
+            <tbody>
+                <!-- Afficher la liste des profils -->
+                <tr *ngFor="let profil of profils.datas">
+                    <td>{{ profil.libelle }}</td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-pen-to-square" style="color: #ffc107;font-size: 1.5em;"></i>
+                        </a>
+                        &nbsp;
+                        <a href="">
+                            <i class="fa-solid fa-trash" style="color: red;font-size: 1.5em;"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+</div>
+

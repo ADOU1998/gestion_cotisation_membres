@@ -1,0 +1,27 @@
+#body{
+    height: 775px;  
+    background-image: url("../../assets/images/image_caisse.jpg");  
+    background-size: 100%;  
+    background-size: cover;  
+}
+
+#form{
+    background-color: #fff;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    background-color: #041340;
+    border-color: #041340;
+    border-radius: 5px;
+    color: #fff;
+    height: 40%;
+    font-size: 1.5em;
+}

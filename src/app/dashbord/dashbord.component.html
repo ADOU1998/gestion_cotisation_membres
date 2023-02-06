@@ -1,0 +1,56 @@
+<!-- Menu vertical -->
+    <div class="row">
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" id="lien" routerLink="">
+                            <i class="fas fa-users"></i>
+                            <span class="nav-item">MEMBRE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="lien" routerLink="/profil">
+                            <i class="fas fa-user"></i>
+                            <span class="nav-item">PROFIL</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="lien">
+                            <i class="fas fa-wallet"></i>
+                            <span class="nav-item">VERSEMENT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="logout" href="#" id="lien">
+                            <i class="fas fa-sign-out"></i>
+                            <span class="nav-item">DECONNEXION</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- En tête -->
+        <div class="col dash">
+            <h1 style="text-align: center;color: #fff;">GESTION DES COTISATIONS DES MEMBRES</h1>
+        </div>     
+    </div>
+
+<!-- Les blocs -->
+<div class="container-fluid">
+    <div class="row cadre">
+        <div class="col-md-4" id="membre">
+            <i class="fas fa-users" style="color: #fff;font-size: 50px;"></i><br><br>
+            <h3 style="color: #fff;">VERSMENT</h3>
+        </div>
+        <div class="col-md-4" id="profil" routerLink="/profil">
+            <i class="fas fa-user" style="color: #fff;font-size: 50px;"></i><br><br>
+            <h3 style="color: #fff;">PROFIL</h3>
+        </div>
+        <div class="col-md-4" id="vers">
+            <i class="fas fa-wallet" style="color: #fff;font-size: 50px;"></i><br><br>
+            <h3 style="color: #fff;">VERSEMENT</h3>
+        </div>
+    </div>
+</div>
+

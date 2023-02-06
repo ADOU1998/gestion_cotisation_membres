@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #041340;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background-color: #041340;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+#lien{
+    top: 60px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.fas:hover{
+    color:  #041340;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+}
+
+#lien:hover{
+    background-color: #eee;
+    color:  #041340;
+}
+nav:hover{
+    width: 195px;
+    transition: all 0.5s ease;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+.dash{
+    background-color: #041340;
+    height: 60px;
+}
+
+.cadre{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#membre{
+    background: #03f085;
+    border-radius: 5px;
+    padding-bottom: 100px;
+}
+
+#profil{
+    background: #2c09a9;
+    border-radius: 5px;
+    padding-bottom: 100px;
+}
+
+#vers{
+    background: #ef8b07;
+    border-radius: 5px;
+    padding-bottom: 100px;
+}
